@@ -20,6 +20,8 @@ controls: true
 * Each commit is a snapshot of the entire repository
 * Branches diverge history of the *entire* repository
 * Cloning and pulling and pushing OH MY!
+* Concepts to understand, coming from TFS
+* GitHub Pull Request (PR) demo
 
 --
 
@@ -57,4 +59,17 @@ controls: true
 
 `git pull` is like doing `git fetch` followed by `git merge`
 
+--
 
+### Concepts to understand, coming from TFS
+
+* Branches diverge the entire history, and can&#39;t be "enlisted" piecemeal
+* Most actions happen without talking to the server
+  * **Local** - commit, checkout, merge, log
+  * **Server** - clone, push, pull
+* Most branches are short-lived and feature specific. Merge with `master` and remove branch when feature is complete
+* Because you download the entire history, only check in sources. No binaries
+
+--
+
+### GitHub Pull Request (PR) demo
