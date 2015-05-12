@@ -28,7 +28,7 @@ controls: true
 
 ### Git is a database of objects
 
-* Commits files are examples of objects
+* Commits and files are examples of objects
 * Each object is stored with the SHA of its contents as the key
 * Objects can be added and removed, but never edited
 
