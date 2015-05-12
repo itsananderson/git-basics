@@ -10,6 +10,7 @@ controls: true
 --
 
 # Git Basics
+## http://willi.am/git-basics
 ## A quick tour through what you need to get started
 
 --
@@ -74,4 +75,4 @@ controls: true
 
 ### GitHub Pull Request (PR) demo
 
-http://github.com/itsananderson/github-pr-demo
+http://github.com/itsananderson/typescript-build-example
